@@ -1,2 +1,2 @@
 # Handmade
-nothing but just a beginner's random codes
+nothing but a beginner's random codes
