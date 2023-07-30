@@ -2,37 +2,10 @@
 
 using namespace std;
 
-void say() {
-	cout << "this is a function";
-}
+
 
 int main() {
 
-	//auto sayfunc = say;
-
-	// the auto type is the type describe below it consist of function_return_type(*function_name) (parameters); this  is a pointer that points to where the function is stored
-	// it is important to note that this is just a declaration and should be assigned to a function (more precisely a function address) in order to work
-
-
-
-	//void(*funcsay) () = say;
-
-
-
-	//typedef void(*saying)();
-
-	//saying  funcsay = say;
-
-	//funcsay();
-
-
-
-	//int choice = 0;
-
-	
-	
-	
-	
 
 	struct order {
 		string order_name = "";
@@ -167,9 +140,8 @@ int main() {
 			}
 
 		}
-		//break;
-		//else
-			//cout << "please enter a valid input: " << endl;
+	
+		
 	}
 	
 	
@@ -177,22 +149,3 @@ int main() {
 	
 	return 0;
 }
-
-
-
-//enum choice --> ordername --> price
-
-/*
-  while (true) {
-    if(true){
-	   while (true){
-	    if false break
-	   
-	   }
-	      
-	
-	}
-  }
-*/ 
-
-
