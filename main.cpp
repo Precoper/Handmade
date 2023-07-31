@@ -24,7 +24,7 @@ int main() {
 	
 	enum food_choice {
 		tacobella = 1,
-		burger,
+		burger
 	};
 
 	enum drink_choice {
@@ -67,7 +67,7 @@ int main() {
 					float base_pirce = 1.2;
 					order.order_name = "coffee";
 					order.amount = amount;
-					order.price += base_pirce * amount;
+					order.price = base_pirce * amount;
 					cout << "you just ordered  " << order.amount << ", " << order.order_name << ", which costed you: " << order.price << endl;
 					exit_loop = true;
 					break;
@@ -77,7 +77,7 @@ int main() {
 					float base_pirce = 1.0;
 					order.order_name = "tea";
 					order.amount = amount;
-					order.price += base_pirce * amount;
+					order.price = base_pirce * amount;
 					cout << "you just ordered  " << order.amount << ", " << order.order_name << ", which costed you: " << order.price << endl;
 					exit_loop = true; 
 					break;
@@ -86,7 +86,7 @@ int main() {
 					float base_pirce = 1.5;
 					order.order_name = "coca";
 					order.amount = amount;
-					order.price += base_pirce * amount;
+					order.price = base_pirce * amount;
 					cout << "you just ordered  " << order.amount << ", " << order.order_name << ", which costed you: " << order.price << endl;
 					exit_loop = true;
 					break;
